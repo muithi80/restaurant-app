@@ -1,0 +1,52 @@
+
+body{
+  text-align: left;
+  margin: auto;
+  font-family: serif;
+  background-color:rgb(237, 226, 212);
+  color:#3e2723}
+
+  .logo-img{
+    width: 150px;
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 150px;
+    border-color: black;
+    border-style:inset;
+  }
+
+.food-img{
+   width: 800px;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 2500px;
+  margin-top: 10px;
+  box-shadow: 0.8px 20px rgba(0,0,0,0,0.15);
+  transition:0.3s ease;
+  align-items: center;
+}
+
+.food-img:hover{
+  transform: scale(1.03);
+}
+
+.menu-item{
+  text-align: center;
+}
+h1{
+  color: rgb(8, 166, 166);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h2{
+  color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+  background-color:chocolate;
+  color: blue;
+  border-radius: 10px;
+}
